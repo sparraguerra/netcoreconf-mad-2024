@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.AppHost", "AspireDaprDemo.AppHost\AspireDaprDemo.AppHost.csproj", "{96FD85A9-1D80-44FC-9233-BA4443F12F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.ServiceDefaults", "AspireDaprDemo.ServiceDefaults\AspireDaprDemo.ServiceDefaults.csproj", "{1028AF9B-5F84-461D-89E6-EF099CB33F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{398B4EFC-E24D-41DD-9FE0-B7F56506C7C1}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.FreezerService", "AspireDaprDemo.FreezerService\AspireDaprDemo.FreezerService.csproj", "{754FEE44-6C9C-4D8A-846D-EDF478C6A250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.GokuService", "AspireDaprDemo.GokuService\AspireDaprDemo.GokuService.csproj", "{6177768D-AE07-4B2B-A4B3-36DBE6F6D83B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dapr", "dapr", "{F7898DD7-0140-4EF4-B327-CAAF321DBF12}"
+	ProjectSection(SolutionItems) = preProject
+		dapr\pubsub.yaml = dapr\pubsub.yaml
+		dapr\queue.yaml = dapr\queue.yaml
+		dapr\resiliency.yaml = dapr\resiliency.yaml
+		dapr\signalr.yaml = dapr\signalr.yaml
+		dapr\statestore.yaml = dapr\statestore.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.TenkaichiBudokaiService", "AspireDaprDemo.TenkaichiBudokaiService\AspireDaprDemo.TenkaichiBudokaiService.csproj", "{68C1D629-262C-4046-8D31-3E0ABD30128D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireDaprDemo.Common", "AspireDaprDemo.Common\AspireDaprDemo.Common.csproj", "{FADEC28C-6901-4E4A-ADD7-503B4F549BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96FD85A9-1D80-44FC-9233-BA4443F12F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FD85A9-1D80-44FC-9233-BA4443F12F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FD85A9-1D80-44FC-9233-BA4443F12F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FD85A9-1D80-44FC-9233-BA4443F12F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1028AF9B-5F84-461D-89E6-EF099CB33F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1028AF9B-5F84-461D-89E6-EF099CB33F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1028AF9B-5F84-461D-89E6-EF099CB33F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1028AF9B-5F84-461D-89E6-EF099CB33F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754FEE44-6C9C-4D8A-846D-EDF478C6A250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754FEE44-6C9C-4D8A-846D-EDF478C6A250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754FEE44-6C9C-4D8A-846D-EDF478C6A250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754FEE44-6C9C-4D8A-846D-EDF478C6A250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6177768D-AE07-4B2B-A4B3-36DBE6F6D83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6177768D-AE07-4B2B-A4B3-36DBE6F6D83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6177768D-AE07-4B2B-A4B3-36DBE6F6D83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6177768D-AE07-4B2B-A4B3-36DBE6F6D83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C1D629-262C-4046-8D31-3E0ABD30128D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C1D629-262C-4046-8D31-3E0ABD30128D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C1D629-262C-4046-8D31-3E0ABD30128D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C1D629-262C-4046-8D31-3E0ABD30128D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADEC28C-6901-4E4A-ADD7-503B4F549BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADEC28C-6901-4E4A-ADD7-503B4F549BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADEC28C-6901-4E4A-ADD7-503B4F549BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADEC28C-6901-4E4A-ADD7-503B4F549BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

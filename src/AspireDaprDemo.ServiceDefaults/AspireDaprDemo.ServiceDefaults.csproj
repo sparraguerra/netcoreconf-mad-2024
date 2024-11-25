@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<IsAspireSharedProject>true</IsAspireSharedProject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Monitor.OpenTelemetry.AspNetCore" />
+		<PackageReference Include="Dapr.AspNetCore" />
+		<PackageReference Include="Dapr.Actors.AspNetCore" />
+		<PackageReference Include="Dapr.Client" />
+		<PackageReference Include="Dapr.Actors" />
+		<PackageReference Include="Dapr.Extensions.Configuration" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Microsoft.Extensions.Http.Resilience" />
+		<PackageReference Include="Microsoft.Extensions.ServiceDiscovery" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" />
+	</ItemGroup>
+
+</Project>
